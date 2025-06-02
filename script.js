@@ -68,7 +68,7 @@ function animate() {
   requestAnimationFrame(animate);
 
   if (model) {
-    model.rotation.x += 0.01; // вращение вокруг локальной оси X
+    model.rotation.x += 0.001; // вращение вокруг локальной оси X
   }
 
   renderer.render(scene, camera);
