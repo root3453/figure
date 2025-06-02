@@ -6,6 +6,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.outputEncoding = THREE.sRGBEncoding;
 document.body.appendChild(renderer.domElement);
+renderer.setClearColor(0xc1c1c1);
 
 // Lighting
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
