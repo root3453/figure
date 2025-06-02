@@ -26,7 +26,7 @@ loader.setDRACOLoader(dracoLoader);
 
 // Load GLB model
 loader.load(
-  'https://file.garden/aDkw2WzQiQyHQO4K/figure/figure3.glb',
+  'figure3.glb',
   function (gltf) {
     model = gltf.scene;
     model.scale.set(10, 10, 10);
